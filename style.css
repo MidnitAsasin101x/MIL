@@ -1,0 +1,158 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(233, 156, 105);
+    display:grid;
+    position: relative;
+}
+.main{
+    position: relative;
+    background-color: rgb(54, 54, 54);
+    height: 900px;
+    width:400px;
+    z-index: 1;
+    border-radius: 20px;
+}
+.logo{
+    position: relative;
+    top:30px;
+    left:15px;
+    height: 10%;
+    z-index: 2;
+}
+.lambo{
+    position: relative;
+    left:110px;
+    bottom:40px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    color: rgb(233, 156, 105);
+    z-index: 3;
+}
+.bar{
+    position: relative;
+    right:140px;
+    top: 10px;
+    background-color: rgb(233, 156, 105);
+    height: 50px;
+    width: 80px;
+    border-radius: 20px;
+    z-index: 4;
+}
+.home{
+    position: relative;
+    left:40px;
+    bottom:25px;
+    color: rgb(54, 54, 54);
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    z-index:5;
+}
+.bar:hover{
+    border: 2px rgb(233, 156, 105) solid;
+    background-color:WHITE ;
+}
+.growth:hover{
+    color:white;
+}
+.bus:hover{
+    -webkit-text-stroke: 1px rgb(233, 156, 105);
+}
+.lambo:hover{
+    color: white;
+}
+.cave:hover{
+    opacity: 50% ;
+    color: orange;
+}
+.store{
+    position: relative;
+    right:-130px;
+    bottom:40px;
+    color: rgb(233, 156, 105);
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    z-index:6; 
+}
+.contact{
+    position: relative;
+    right:-210px;
+    bottom:58px;
+    color: rgb(233, 156, 105);
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    z-index:7; 
+}
+.about{
+    position: relative;
+    right:-310px;
+    bottom:75px;
+    color: rgb(233, 156, 105);
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    z-index:8; 
+}
+.bus{
+    position: relative;
+    right:-20px;
+    bottom:55px;
+    color: transparent;
+    font-family: 'Cabin', sans-serif;
+    font-size: 65px;
+    -webkit-text-stroke: 1px white;
+    font-weight: 900;
+    
+    z-index:9; 
+}.growth{
+    position: relative;
+    right:-20px;
+    bottom:55px;
+    color:rgb(233, 156, 105);
+    font-family: 'Cabin', sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+    z-index:10;  
+}
+.cave{
+    position: relative;
+    top:70px;
+    left:20px;
+    height: 40%;
+    z-index: 11;
+    border-radius: 20px;
+}.ad{
+    position: relative;
+    right:-25px;
+    bottom:410px;
+    color: rgb(233, 156, 105);
+    font-family: 'Cabin', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    z-index:12; 
+}
+.end{
+    position: relative;
+    right:-25px;
+    bottom:1px;
+    color: rgb(233, 156, 105);
+    font-family: 'Cabin', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    z-index:13; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(233, 156, 105);   
+}
